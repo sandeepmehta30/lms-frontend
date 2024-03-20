@@ -1,10 +1,15 @@
 import './App.css'
 
+import { Route } from 'react-router-dom'
+
+
 function App() {
 
   return (
     <>
-    lms
+      <Route>
+        {/* <Route path="/" element={<Home />} ></Route> */}
+      </Route>
     </>
   )
 }
